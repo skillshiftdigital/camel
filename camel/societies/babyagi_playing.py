@@ -121,7 +121,7 @@ class BabyAGI:
             message_window_size,
         )
 
-        self.subtasks: deque = deque([])
+        self.subtasks: deque = deque()
         self.solved_subtasks: List[str] = []
         self.MAX_TASK_HISTORY = max_task_history
 
